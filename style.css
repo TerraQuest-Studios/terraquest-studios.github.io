@@ -1,0 +1,134 @@
+/* variables */
+:root {
+    --text-color: #f5f5f5;
+}
+
+/* core formating */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+}
+
+a:focus-visible {
+    outline-offset: 0;
+    outline: 0;
+}
+
+/* elements formating */
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* items */
+
+.button {
+    padding: 1em 2em;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.button:hover {
+    filter: brightness(90%);
+}
+
+.is-teal {
+    background-color: teal;
+}
+
+/* sections */
+.hero {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("assets/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content a {
+    margin-top: 2rem;
+}
+
+.about {
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-content {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: none;
+}
+
+.about-content h4 {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.about-content p {
+    max-width: 25rem;
+    flex-basis: 100%;
+    margin-bottom: 2rem;
+}
+
+.about-content br {
+    width: 100%;
+    content: '';
+}
+
+.about-content img {
+    width: 20rem;
+}
+
+.projects {
+    height: 20%;
+}
