@@ -132,3 +132,37 @@ h6 {
 .projects {
     height: 20%;
 }
+
+.footer {
+    background-color: black;
+    padding: 5rem 0;
+}
+
+.footer-content {
+    color: #bebebe;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content p {
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    margin-top: 2rem
+}
+
+.footer-icons a {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #bebebe;
+    transition: 0.5s;
+}
+
+.footer-icons a:hover {
+    color: white;
+    transform: scale(1.2);
+}
