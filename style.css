@@ -53,6 +53,12 @@ h6 {
     font-size: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
 /* items */
 
 .button {
@@ -120,6 +126,7 @@ h6 {
     max-width: 25rem;
     flex-basis: 100%;
     margin-bottom: 2rem;
+    margin: 0 2rem;
 }
 
 .about-content br {
@@ -221,4 +228,21 @@ h6 {
 .footer-icons a:hover {
     color: white;
     transform: scale(1.2);
+}
+
+@media only screen and (max-width: 600px) {
+    .project-img {
+        width: 100%;
+    }
+    .project-desc {
+        width: 100%;
+    }
+    .pb-left {
+        border-left: 0px;
+        border-top: 5px solid teal;
+    }
+    .pb-right {
+        border-right: 0px;
+        border-bottom: 5px solid teal;
+    }
 }
